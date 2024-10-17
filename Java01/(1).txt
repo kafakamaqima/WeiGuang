@@ -1,9 +1,0 @@
-1. 请先了解并回答什么是JDK，什么又是JRE，JVM？他们之间是什么关系？为什么有了它们就能运行JAVA代码？
-     
-    JDK(Java Development Kit),即Java开发工具包.
-    JRE(Java Runtime Environment),即Java运行环境.
-    JVM(Java Virtual Machin),即Java虚拟机.
-    
-    他们之间的关系:JDK是最大的，它包含JRE，而JRE又包含JVM.
-    
-    它们都与Java的运行环境以及Java程序的编译和运行有关,JDK是用于Java开发的一套工具包，里面包含了Java的编译器javac、Java程序打包工具jar、Java程序运行环境JRE、文档生成工具javadoc以及很多用于开发的工具，如调试工具jdb等;      JRE是运行Java程序所需的环境，包括JVM以及Java类库等。JRE是Java程序运行的实施场所，同时也提供了运行Java程序所必需的库文件;    JVM是Java运行环境的核心，它负责Java程序的运行。JVM是一个虚拟的计算机,它接收到字节码,然后解释或编译执行
