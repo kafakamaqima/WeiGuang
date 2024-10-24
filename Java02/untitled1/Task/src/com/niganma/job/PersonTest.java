@@ -23,7 +23,7 @@ public class PersonTest {
         // 验证复制是否成功(此时原始对象的age属性已被修改,如果复制成功,则打印出来的数值会不同)
         System.out.println("原始对象: " + original.getName() + ", 年龄: " + original.getAge() + ", 性别: " + original.getSex());
         System.out.println("复制对象: " + copy.getName() + ", 年龄: " + copy.getAge() + ", 性别: " + copy.getSex());
-        System.out.println("已创建的Person对象数量为: "+Person.count());
+        System.out.println("已创建的Person对象数量为: " + Person.count());
     }
 
 }
